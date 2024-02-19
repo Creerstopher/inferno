@@ -8,48 +8,56 @@ export const products = [
         id: 1,
         name: "белый свитер",
         price: '5400',
-        photo: [img1, img2, img3]
+        photo: [img1, img2, img3],
+        fp: [img1]
     },
     {
         id: 2,
         name: "Платье",
         price: '9500',
-        photo: [img2, img3, img4]
+        photo: [img2, img3, img4],
+        fp: [img2]
     },
     {
         id: 3,
         name: "бежевая рубашка",
         price: '5600',
-        photo: [img3, img4, img1]
+        photo: [img3, img4, img1],
+        fp: [img3]
     },
     {
         id: 4,
         name: "Хлопковая рубашка",
         price: '6500',
-        photo: [img4, img1, img2]
+        photo: [img4, img1, img2],
+        fp: [img4]
     },
     {
         id: 5,
         name: "белый свитер",
         price: '5400',
-        photo: [img1, img2, img3]
+        photo: [img1, img2, img3],
+        fp: [img1]
     },
     {
         id: 6,
         name: "Платье",
         price: '9500',
-        photo: [img2, img3, img4]
+        photo: [img2, img3, img4],
+        fp: [img2]
     },
     {
         id: 8,
         name: "бежевая рубашка",
         price: '5600',
-        photo: [img3, img4, img1]
+        photo: [img3, img4, img1],
+        fp: [img3]
     },
     {
         id: 9,
         name: "Хлопковая рубашка",
         price: '6500',
-        photo: [img4, img1, img2]
+        photo: [img4, img1, img2],
+        fp: [img4]
     }
 ]
