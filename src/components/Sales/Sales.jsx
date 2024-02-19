@@ -33,7 +33,7 @@ export default function Sales() {
                     {
                         products.map((products, index) => (
                             // eslint-disable-next-line react/jsx-key
-                            <SwiperSlide><Card key={index} {...products} /></SwiperSlide>
+                            <SwiperSlide><Card firstPhoto={products.photo[0]} key={index} {...products} /></SwiperSlide>
                         ))
                     }
 
