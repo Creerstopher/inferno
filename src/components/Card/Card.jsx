@@ -3,11 +3,11 @@ import './Card.css'
 import like from '../../../public/ico/like.png'
 import {NavLink} from "react-router-dom";
 
-const Card = ({id, name, price, photo}) => {
+const Card = ({id, name, price, firstPhoto}) => {
     return (
         <>
             <div className="card">
-                <div style={{backgroundImage: `url(${photo})`, backgroundSize: 'cover', backgroundPosition: 'center'}}
+                <div style={{backgroundImage: `url(${firstPhoto})`, backgroundSize: 'cover', backgroundPosition: 'center'}}
                      className="card_img">
                     <div className="card_btns">
                         <NavLink to={`/catalog/${id}`}>
