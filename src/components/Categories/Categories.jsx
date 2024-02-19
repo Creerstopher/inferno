@@ -9,7 +9,7 @@ const Categories = () => {
                 <div className="categories_item categories_item--first">
 
                     <div className="categories_item_placeholder">
-                        <p>    мужчины </p>
+                        <p> мужчины </p>
                     </div>
 
                 </div>

@@ -6,11 +6,11 @@ import './Banner.css'
 const Banner = () => {
     return (
         <>
-        <div className="banner">
-            <div className="banner_title">
-                INFERNO
+            <div className="banner">
+                <div className="banner_title">
+                    INFERNO
+                </div>
             </div>
-        </div>
         </>
     )
 }

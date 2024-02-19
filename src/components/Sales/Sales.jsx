@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, {useRef, useState} from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Swiper, SwiperSlide} from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -9,8 +9,8 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
-import { products } from '../../data';
+import {FreeMode, Pagination} from 'swiper/modules';
+import {products} from '../../data';
 import Card from '../Card/Card';
 
 
@@ -32,6 +32,7 @@ export default function Sales() {
                 >
                     {
                         products.map((products, index) => (
+                            // eslint-disable-next-line react/jsx-key
                             <SwiperSlide><Card key={index} {...products} /></SwiperSlide>
                         ))
                     }
@@ -40,7 +41,7 @@ export default function Sales() {
 
 
                 <div className="salles_btn">
-                     <p>ПОКАЗАТЬ ЕЩЁ</p>
+                    <p>ПОКАЗАТЬ ЕЩЁ</p>
                 </div>
             </div>
         </>

@@ -3,12 +3,10 @@ import img2 from './../public/products/2.png'
 import img3 from './../public/products/3.png'
 import img4 from './../public/products/4.png'
 
-
-
 export const products = [
     {
         id: 1,
-        name: "белый свитер", 
+        name: "белый свитер",
         price: '5400',
         photo: [img1, img2, img3]
     },
