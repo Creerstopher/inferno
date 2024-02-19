@@ -1,7 +1,7 @@
 import img1 from './public/products/1.png'
 import img2 from './public/products/2.png'
 import img3 from './public/products/3.png'
-import img4 from 'git./public/products/4.png'
+import img4 from './public/products/4.png'
 
 
 
